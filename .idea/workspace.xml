@@ -1,36 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="963af456-b991-4b7b-a329-92bccee8e025" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/components/CreateSong.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Panel.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Songs.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/ViewSong.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/services/SongsService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/store/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/controllers/SongsController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/models/Songs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/routes/songs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Header.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Login.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Register.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Register.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/config/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/config/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/controllers/AuthenticationController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/AuthenticationController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/dist/my-first-webpack.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/dist/my-first-webpack.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/models/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/User.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/models/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tabtracker.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/tabtracker.sqlite" afterDir="false" />
-    </list>
+    <list default="true" id="963af456-b991-4b7b-a329-92bccee8e025" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -388,12 +359,12 @@
       <workItem from="1525971046598" duration="8995000" />
       <workItem from="1525989632279" duration="5000" />
       <workItem from="1526035334440" duration="34669000" />
-      <workItem from="1526145687156" duration="5705000" />
+      <workItem from="1526145687156" duration="6030000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198821000" />
+    <option name="totallyTimeSpent" value="199146000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -416,7 +387,7 @@
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49923548" weight="0.32924962" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32924962" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49541286" visible="true" weight="0.31087288" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49541286" visible="true" weight="0.42725882" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
