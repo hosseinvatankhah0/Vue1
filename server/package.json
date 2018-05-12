@@ -27,7 +27,10 @@
     "path-dirname": "^1.0.2",
     "pug": "2.0.0-beta11",
     "sequelize": "^4.37.6",
-    "sqlite3": "https://github.com/mapbox/node-sqlite3/tarball/master"
+    "sqlite3": "https://github.com/mapbox/node-sqlite3/tarball/master",
+    "uninstall": "0.0.0",
+    "vuex": "^3.0.1",
+    "vuex-router-sync": "^5.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",

@@ -9,9 +9,11 @@ module.exports = {
         options: {
             dialect: process.env.DIALECT || 'sqlite',
             host: process.env.HOST || 'localhost',
-/*            operatorsAliases: false,
+            operatorsAliases: false,
             logging: false,
-            freezeTableName: true,*/
+/*
+            freezeTableName: true,
+*/
             storage: path.resolve(__dirname,'../../tabtracker.sqlite')
         }
     },

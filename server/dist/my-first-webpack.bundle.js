@@ -74,7 +74,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(process) {
+/* WEBPACK VAR INJECTION */(function(process, __dirname) {
 
 var path = __webpack_require__(2);
 
@@ -85,18 +85,21 @@ module.exports = {
         user: process.env.DB_USER || 'tabtracker',
         password: process.env.DB_PASS || 'tabtracker',
         options: {
-            operatorsAliases: false,
             dialect: process.env.DIALECT || 'sqlite',
             host: process.env.HOST || 'localhost',
-            storage: path.resolve('../../tabtracker.sqlite')
-            //storage: require('../tabtracker.sqlite')
+            operatorsAliases: false,
+            logging: false,
+            /*
+                        freezeTableName: true,
+            */
+            storage: path.resolve(__dirname, '../../tabtracker.sqlite')
         }
     },
     authentication: {
         jwtSecret: process.env.JWT_SECRET || 'secret'
     }
 };
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(1)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(1), "/"))
 
 /***/ }),
 /* 1 */

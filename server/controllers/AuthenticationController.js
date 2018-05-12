@@ -20,7 +20,8 @@ module.exports = {
             })
         } catch (err) {
             res.status(400).send({
-                error: err.toString()
+                error: 'This email account is already in use.'
+                //error: err.toString()
             })
         }
     },
@@ -35,7 +36,8 @@ module.exports = {
 
             if (!user) {
                 return res.status(403).send({
-                    error: 'The login information was '
+                    error: 'The login information was incorrect'
+                    //error: error.toString()
                 })
             }
 
@@ -43,6 +45,7 @@ module.exports = {
             if (!isPasswordValid) {
                 return res.status(403).send({
                     error: 'The login information was incorrect'
+                    //error: error.toString()
                 })
             }
 
@@ -53,7 +56,8 @@ module.exports = {
             })
         } catch (err) {
             res.status(500).send({
-                error: err.toString()
+               error: 'An error has occurred trying to log in'
+               // error: err.toString()
             })
         }
     }
